@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6C55AD21BC0ECE001B0C1B /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C55AC21BC0ECE001B0C1B /* HelloWorldViewController.m */; };
 		D771254D15F5D73000225985 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D771254C15F5D73000225985 /* AVFoundation.framework */; };
 		D771255015F5D8E500225985 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D771254F15F5D8E500225985 /* CoreMedia.framework */; };
 		D771255215F5D95400225985 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D771255115F5D95400225985 /* AudioToolbox.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E6C55AB21BC0ECE001B0C1B /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		4E6C55AC21BC0ECE001B0C1B /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		D771254C15F5D73000225985 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D771254F15F5D8E500225985 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		D771255115F5D95400225985 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -102,6 +105,8 @@
 				D771257415F60AB600225985 /* Player.m */,
 				D7A036F115F5D65400B98E91 /* ViewController.xib */,
 				D7A036E315F5D65300B98E91 /* Supporting Files */,
+				4E6C55AB21BC0ECE001B0C1B /* HelloWorldViewController.h */,
+				4E6C55AC21BC0ECE001B0C1B /* HelloWorldViewController.m */,
 			);
 			path = sampleQueueIphone;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			files = (
 				D7A036E915F5D65300B98E91 /* main.m in Sources */,
 				D7A036ED15F5D65300B98E91 /* AppDelegate.m in Sources */,
+				4E6C55AD21BC0ECE001B0C1B /* HelloWorldViewController.m in Sources */,
 				D7A036F015F5D65400B98E91 /* ViewController.m in Sources */,
 				D771257515F60AB600225985 /* Player.m in Sources */,
 			);
